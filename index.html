@@ -19,11 +19,15 @@
             </a>
           </div>
           <!-- Desktop Menu -->
-          <div class="hidden md:flex items-center space-x-8">
+          <div class="hidden lg:flex items-center space-x-6">
             <a href="#about" class="nav-link">About</a>
             <a href="#programs" class="nav-link">Programs</a>
+            <a href="#events" class="nav-link">Events</a>
+            <a href="#gallery" class="nav-link">Gallery</a>
+            <a href="#testimonials" class="nav-link">Testimonials</a>
             <a href="#impact" class="nav-link">Impact</a>
-            <a href="#contact" class="btn-primary py-2 px-6 shadow-md text-sm">Partner With Us</a>
+            <a href="#volunteer" class="btn-secondary py-2 px-5 shadow-md text-sm">Volunteer</a>
+            <a href="#contact" class="btn-primary py-2 px-5 shadow-md text-sm">Partner</a>
           </div>
           <!-- Mobile Menu Button -->
           <div class="md:hidden flex items-center">
@@ -126,6 +130,217 @@
       </div>
     </section>
 
+    <!-- Events Section -->
+    <section id="events" class="py-24 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-3xl md:text-4xl font-bold text-sq-green mb-4">Events</h2>
+          <div class="w-24 h-1 bg-sq-orange mx-auto rounded-full"></div>
+        </div>
+        
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+          <!-- Upcoming Events -->
+          <div>
+            <h3 class="text-2xl font-bold text-gray-800 mb-6 flex items-center">
+              <span class="w-3 h-3 bg-sq-orange rounded-full mr-3 animate-pulse"></span>
+              Upcoming Events
+            </h3>
+            <div class="space-y-6">
+              <!-- Event Card -->
+              <div class="bg-white border border-gray-100 rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow relative overflow-hidden group">
+                <div class="absolute top-0 left-0 w-1 h-full bg-sq-orange transform scale-y-0 group-hover:scale-y-100 transition-transform origin-top"></div>
+                <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-4">
+                  <div>
+                    <span class="text-sm font-semibold text-sq-orange tracking-wider uppercase">Oct 15, 2026 • 9:00 AM</span>
+                    <h4 class="text-xl font-bold text-sq-green mt-1">Mbooni Youth Summit 2026</h4>
+                  </div>
+                  <span class="mt-2 sm:mt-0 bg-sq-light-green text-sq-green text-xs font-bold px-3 py-1 rounded-full">Free</span>
+                </div>
+                <p class="text-gray-600 mb-6 text-sm">Join us for the annual gathering of young leaders, innovators, and change-makers in Makueni county.</p>
+                <div class="flex items-center justify-between">
+                  <div class="flex items-center text-sm text-gray-500">
+                    <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                    Wote, Makueni
+                  </div>
+                  <button type="button" class="btn-primary py-2 px-4 text-sm" onclick="alert('Booking portal opening soon!')">Book Event</button>
+                </div>
+              </div>
+              
+              <!-- Event Card -->
+              <div class="bg-white border border-gray-100 rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow relative overflow-hidden group">
+                <div class="absolute top-0 left-0 w-1 h-full bg-sq-orange transform scale-y-0 group-hover:scale-y-100 transition-transform origin-top"></div>
+                <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-4">
+                  <div>
+                    <span class="text-sm font-semibold text-sq-orange tracking-wider uppercase">Nov 05, 2026 • 2:00 PM</span>
+                    <h4 class="text-xl font-bold text-sq-green mt-1">PowerTalk: Tech & Future</h4>
+                  </div>
+                </div>
+                <p class="text-gray-600 mb-6 text-sm">An insightful session on leveraging technology for local businesses and startups.</p>
+                <div class="flex items-center justify-between">
+                  <div class="flex items-center text-sm text-gray-500">
+                    <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                    Mbooni West
+                  </div>
+                  <button type="button" class="btn-primary py-2 px-4 text-sm" onclick="alert('Booking portal opening soon!')">Book Event</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Past Events -->
+          <div>
+            <h3 class="text-2xl font-bold text-gray-800 mb-6 flex items-center">
+              <span class="w-3 h-3 bg-gray-300 rounded-full mr-3"></span>
+              Past Events
+            </h3>
+            <div class="space-y-6 opacity-75">
+              <!-- Event Card -->
+              <div class="bg-gray-50 border border-gray-200 rounded-2xl p-6">
+                <div class="mb-4">
+                  <span class="text-sm font-semibold text-gray-500 tracking-wider uppercase">Mar 12, 2026</span>
+                  <h4 class="text-lg font-bold text-gray-700 mt-1">Youth Circuit: Financial Literacy</h4>
+                </div>
+                <p class="text-gray-600 text-sm mb-4">Over 200 youths trained on personal finance and micro-investing.</p>
+                <div class="flex items-center justify-between border-t border-gray-200 pt-4">
+                  <div class="flex items-center text-sm text-gray-500">
+                    Mbooni East
+                  </div>
+                  <span class="text-sm font-medium text-sq-green">Completed successfully</span>
+                </div>
+              </div>
+              
+              <!-- Event Card -->
+              <div class="bg-gray-50 border border-gray-200 rounded-2xl p-6">
+                <div class="mb-4">
+                  <span class="text-sm font-semibold text-gray-500 tracking-wider uppercase">Jan 20, 2026</span>
+                  <h4 class="text-lg font-bold text-gray-700 mt-1">Community Outreach: Tree Planting</h4>
+                </div>
+                <p class="text-gray-600 text-sm mb-4">Planted 1000+ trees in collaboration with local schools.</p>
+                <div class="flex items-center justify-between border-t border-gray-200 pt-4">
+                  <div class="flex items-center text-sm text-gray-500">
+                    Kikima
+                  </div>
+                  <span class="text-sm font-medium text-sq-green">Completed successfully</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-24 bg-sq-light-green overflow-hidden">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-3xl md:text-4xl font-bold text-sq-green mb-4">Our Gallery</h2>
+          <div class="w-24 h-1 bg-sq-orange mx-auto rounded-full"></div>
+          <p class="mt-6 text-gray-600 max-w-2xl mx-auto">Moments of impact, learning, and community engagement captured in photos and videos.</p>
+        </div>
+        
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+          <!-- Item 1 (Image) -->
+          <div class="relative group rounded-xl overflow-hidden aspect-square col-span-2 row-span-2">
+            <img src="https://images.unsplash.com/photo-1511632765486-a01980e01a18?q=80&w=800&auto=format&fit=crop" alt="Community Event" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
+            <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
+              <span class="text-sq-orange font-bold text-sm tracking-widest uppercase mb-1">Photo</span>
+              <h3 class="text-white font-semibold text-lg">Youth Summit 2025</h3>
+            </div>
+          </div>
+          <!-- Item 2 (Video Placeholder) -->
+          <div class="relative group rounded-xl overflow-hidden aspect-square">
+            <img src="https://images.unsplash.com/photo-1544928147-79a2dbc1f389?q=80&w=400&auto=format&fit=crop" alt="Video thumbnail" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
+            <div class="absolute inset-0 bg-black/40 flex items-center justify-center group-hover:bg-black/50 transition-colors">
+              <div class="w-12 h-12 bg-white/30 backdrop-blur-sm rounded-full flex items-center justify-center text-white group-hover:scale-110 transition-transform">
+                <svg class="w-6 h-6 ml-1" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+              </div>
+            </div>
+            <div class="absolute bottom-0 left-0 w-full p-4 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <span class="text-white text-sm font-medium">PowerTalk Highlights</span>
+            </div>
+          </div>
+          <!-- Item 3 (Image) -->
+          <div class="relative group rounded-xl overflow-hidden aspect-square">
+            <img src="https://images.unsplash.com/photo-1529390079861-591de354faf5?q=80&w=400&auto=format&fit=crop" alt="Mentorship session" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
+          </div>
+          <!-- Item 4 (Image) -->
+          <div class="relative group rounded-xl overflow-hidden aspect-[4/3] col-span-2">
+            <img src="https://images.unsplash.com/photo-1531206715517-5c0ba140b2b8?q=80&w=800&auto=format&fit=crop" alt="Group discussion" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
+            <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
+              <h3 class="text-white font-semibold text-lg">Elevate Mentorship Program</h3>
+            </div>
+          </div>
+          <!-- Item 5 (Image) -->
+          <div class="relative group rounded-xl overflow-hidden aspect-[4/3] col-span-2 hidden md:block">
+            <img src="https://images.unsplash.com/photo-1577700201445-66778438183f?q=80&w=800&auto=format&fit=crop" alt="Volunteers working" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-24 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-3xl md:text-4xl font-bold text-sq-green mb-4">Voices of Impact</h2>
+          <div class="w-24 h-1 bg-sq-orange mx-auto rounded-full"></div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <!-- Testimonial 1 -->
+          <div class="bg-sq-light-green p-8 rounded-3xl relative transition-transform hover:-translate-y-2 duration-300">
+            <div class="text-sq-orange mb-6">
+              <svg class="w-10 h-10 opacity-50" fill="currentColor" viewBox="0 0 24 24"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
+            </div>
+            <p class="text-gray-700 italic mb-8 relative z-10">
+              "ShiftQuest Africa opened my eyes to the potential I had within my community. The mentorship I received during the Elevate program gave me the confidence to start my own small agribusiness."
+            </p>
+            <div class="flex items-center">
+              <img src="https://i.pravatar.cc/150?u=brian" alt="Brian Muema" class="w-12 h-12 rounded-full border-2 border-white shadow-sm object-cover" />
+              <div class="ml-4">
+                <h4 class="font-bold text-sq-green">Brian Muema</h4>
+                <p class="text-sm text-gray-500">Youth Entrepreneur, Mbooni</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 2 -->
+          <div class="bg-sq-light-green p-8 rounded-3xl relative md:transform md:-translate-y-4 transition-transform hover:-translate-y-6 duration-300">
+            <div class="text-sq-orange mb-6">
+              <svg class="w-10 h-10 opacity-50" fill="currentColor" viewBox="0 0 24 24"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
+            </div>
+            <p class="text-gray-700 italic mb-8 relative z-10">
+              "The Youth Summit was a turning point for me. Hearing from professionals who grew up in similar circumstances made me realize that my dreams are valid and achievable with the right network."
+            </p>
+            <div class="flex items-center">
+              <img src="https://i.pravatar.cc/150?u=grace" alt="Grace Mutehu" class="w-12 h-12 rounded-full border-2 border-white shadow-sm object-cover" />
+              <div class="ml-4">
+                <h4 class="font-bold text-sq-green">Grace Mutehu</h4>
+                <p class="text-sm text-gray-500">University Student</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 3 -->
+          <div class="bg-sq-light-green p-8 rounded-3xl relative transition-transform hover:-translate-y-2 duration-300">
+            <div class="text-sq-orange mb-6">
+              <svg class="w-10 h-10 opacity-50" fill="currentColor" viewBox="0 0 24 24"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
+            </div>
+            <p class="text-gray-700 italic mb-8 relative z-10">
+              "Through the Community Outreach program, I learned the value of giving back. ShiftQuest doesn't just teach leadership; they provide practical platforms for us to act as leaders today."
+            </p>
+            <div class="flex items-center">
+              <img src="https://i.pravatar.cc/150?u=samuel" alt="Samuel Musembi" class="w-12 h-12 rounded-full border-2 border-white shadow-sm object-cover" />
+              <div class="ml-4">
+                <h4 class="font-bold text-sq-green">Samuel Musembi</h4>
+                <p class="text-sm text-gray-500">Community Volunteer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Impact Section -->
     <section id="impact" class="py-24 bg-sq-green text-white">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -155,6 +370,105 @@
       </div>
     </section>
 
+    <!-- Volunteer Section -->
+    <section id="volunteer" class="py-24 bg-white relative overflow-hidden">
+      <!-- Background pattern -->
+      <div class="absolute inset-0 opacity-[0.03]" style="background-image: url('data:image/svg+xml,%3Csvg width=\'60\' height=\'60\' viewBox=\'0 0 60 60\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cg fill=\'none\' fill-rule=\'evenodd\'%3E%3Cg fill=\'%23000000\' fill-opacity=\'1\'%3E%3Cpath d=\'M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z\'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');"></div>
+      
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div class="bg-sq-green rounded-[3rem] overflow-hidden shadow-2xl flex flex-col lg:flex-row">
+          
+          <!-- Left side content -->
+          <div class="lg:w-5/12 p-10 lg:p-16 text-white bg-sq-green relative">
+            <!-- Decorative circle -->
+            <div class="absolute -top-24 -left-24 w-64 h-64 bg-white opacity-5 rounded-full blur-2xl"></div>
+            <div class="absolute bottom-10 right-10 w-32 h-32 bg-sq-orange opacity-20 rounded-full blur-xl"></div>
+            
+            <h2 class="text-3xl lg:text-4xl font-bold mb-6">Become a Volunteer</h2>
+            <p class="text-sq-light-green mb-8 text-lg">Join our community of changemakers. Your time and skills can help empower the next generation of leaders in Africa.</p>
+            
+            <ul class="space-y-6">
+              <li class="flex items-start">
+                <div class="bg-white/10 p-2 rounded-lg mt-1 mr-4">
+                  <svg class="w-5 h-5 text-sq-orange" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
+                </div>
+                <div>
+                  <h4 class="font-bold text-white text-lg">Mentorship</h4>
+                  <p class="text-gray-300 text-sm mt-1">Guide youth through our Elevate program.</p>
+                </div>
+              </li>
+              <li class="flex items-start">
+                <div class="bg-white/10 p-2 rounded-lg mt-1 mr-4">
+                  <svg class="w-5 h-5 text-sq-orange" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"></path></svg>
+                </div>
+                <div>
+                  <h4 class="font-bold text-white text-lg">Event Support</h4>
+                  <p class="text-gray-300 text-sm mt-1">Help organize Youth Summits and PowerTalks.</p>
+                </div>
+              </li>
+              <li class="flex items-start">
+                <div class="bg-white/10 p-2 rounded-lg mt-1 mr-4">
+                  <svg class="w-5 h-5 text-sq-orange" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path></svg>
+                </div>
+                <div>
+                  <h4 class="font-bold text-white text-lg">Skill Sharing</h4>
+                  <p class="text-gray-300 text-sm mt-1">Teach specialized skills during community outreach.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          
+          <!-- Right side form -->
+          <div class="lg:w-7/12 bg-gray-50 p-10 lg:p-16">
+            <form class="space-y-6" onsubmit="event.preventDefault(); alert('Thank you! Your volunteer application has been submitted.');">
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div>
+                  <label for="firstName" class="block text-sm font-medium text-gray-700 mb-2">First Name</label>
+                  <input type="text" id="firstName" class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-sq-green focus:border-sq-green transition-colors outline-none" placeholder="John" required>
+                </div>
+                <div>
+                  <label for="lastName" class="block text-sm font-medium text-gray-700 mb-2">Last Name</label>
+                  <input type="text" id="lastName" class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-sq-green focus:border-sq-green transition-colors outline-none" placeholder="Doe" required>
+                </div>
+              </div>
+              
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div>
+                  <label for="email" class="block text-sm font-medium text-gray-700 mb-2">Email Address</label>
+                  <input type="email" id="email" class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-sq-green focus:border-sq-green transition-colors outline-none" placeholder="john@example.com" required>
+                </div>
+                <div>
+                  <label for="phone" class="block text-sm font-medium text-gray-700 mb-2">Phone Number</label>
+                  <input type="tel" id="phone" class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-sq-green focus:border-sq-green transition-colors outline-none" placeholder="+254 700 000000">
+                </div>
+              </div>
+              
+              <div>
+                <label for="interest" class="block text-sm font-medium text-gray-700 mb-2">Area of Interest</label>
+                <select id="interest" class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-sq-green focus:border-sq-green transition-colors outline-none bg-white" required>
+                  <option value="" disabled selected>Select an area</option>
+                  <option value="mentorship">Mentorship</option>
+                  <option value="events">Event Support & Logistics</option>
+                  <option value="media">Media & Photography</option>
+                  <option value="training">Skills Training</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+              
+              <div>
+                <label for="message" class="block text-sm font-medium text-gray-700 mb-2">Why do you want to volunteer? (Optional)</label>
+                <textarea id="message" rows="3" class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-sq-green focus:border-sq-green transition-colors outline-none resize-none" placeholder="Tell us briefly about yourself..."></textarea>
+              </div>
+              
+              <button type="submit" class="w-full btn-primary py-4 text-lg font-bold shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300">
+                Submit Application
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Footer -->
     <footer id="contact" class="bg-gray-900 pt-16 pb-8 border-t-4 border-sq-orange">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -166,8 +480,12 @@
           </div>
           
           <div class="text-center md:text-right text-gray-400">
-            <p class="mb-2"><a href="mailto:shiftquestiniative@gmail.com" class="hover:text-sq-orange transition-colors">shiftquestiniative@gmail.com</a></p>
-            <p><a href="tel:+254705205135" class="hover:text-sq-orange transition-colors">+254 705 205 135</a></p>
+            <p class="mb-2 flex items-center justify-center md:justify-end text-sm">
+              <svg class="w-4 h-4 mr-2 text-sq-orange" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+              Makueni County, Mbooni West County
+            </p>
+            <p class="mb-2"><a href="mailto:shiftquestiniative@gmail.com" class="hover:text-sq-orange transition-colors flex items-center justify-center md:justify-end text-sm"><svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>shiftquestiniative@gmail.com</a></p>
+            <p><a href="tel:+254705205135" class="hover:text-sq-orange transition-colors flex items-center justify-center md:justify-end text-sm"><svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>+254 705 205 135</a></p>
           </div>
         </div>
         
