@@ -13,20 +13,19 @@
         <div class="flex justify-between items-center h-20">
           <!-- Logo -->
           <div class="flex-shrink-0 flex items-center">
-            <a href="#" class="flex items-center space-x-3">
+            <a href="#home" data-target="home" class="flex items-center space-x-3">
               <img src="/logo.jpeg" alt="ShiftQuest Africa Logo" class="h-12 w-auto object-contain rounded-sm" />
               <span class="text-2xl font-bold text-sq-green tracking-tight hidden sm:block">ShiftQuest Africa</span>
             </a>
           </div>
           <!-- Desktop Menu -->
           <div class="hidden lg:flex items-center space-x-6">
-            <a href="#about" class="nav-link">About</a>
-            <a href="#programs" class="nav-link">Programs</a>
-            <a href="#events" class="nav-link">Events</a>
-            <a href="#gallery" class="nav-link">Gallery</a>
-            <a href="#testimonials" class="nav-link">Testimonials</a>
-            <a href="#impact" class="nav-link">Impact</a>
-            <a href="#volunteer" class="btn-secondary py-2 px-5 shadow-md text-sm">Volunteer</a>
+            <a href="#home" class="nav-link font-bold text-sq-green" data-target="home">Home</a>
+            <a href="#events" class="nav-link" data-target="events">Events</a>
+            <a href="#gallery" class="nav-link" data-target="gallery">Gallery</a>
+            <a href="#testimonials" class="nav-link" data-target="testimonials">Testimonials</a>
+            <a href="#impact" class="nav-link" data-target="impact">Impact</a>
+            <a href="#volunteer" class="btn-secondary py-2 px-5 shadow-md text-sm" data-target="volunteer">Volunteer</a>
             <a href="#contact" class="btn-primary py-2 px-5 shadow-md text-sm">Partner</a>
           </div>
           <!-- Mobile Menu Button -->
@@ -42,7 +41,7 @@
     </nav>
 
     <!-- Hero Section -->
-    <section class="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden bg-sq-light-green">
+    <section id="home" data-page="home" class="page-section relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden bg-sq-light-green">
       <!-- Decorative blobs -->
       <div class="absolute top-0 left-0 w-64 h-64 bg-sq-green opacity-5 rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2"></div>
       <div class="absolute bottom-0 right-0 w-96 h-96 bg-sq-orange opacity-5 rounded-full blur-3xl translate-x-1/3 translate-y-1/3"></div>
@@ -63,7 +62,7 @@
     </section>
 
     <!-- About Us Section -->
-    <section id="about" class="py-24 bg-white">
+    <section id="about" data-page="home" class="page-section py-24 bg-white">
       <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h2 class="text-3xl md:text-4xl font-bold text-sq-green mb-8">Empowering the Next Generation</h2>
         <div class="w-24 h-1 bg-sq-orange mx-auto mb-10 rounded-full"></div>
@@ -74,7 +73,7 @@
     </section>
 
     <!-- Programs Section -->
-    <section id="programs" class="py-24 bg-sq-light-green">
+    <section id="programs" data-page="home" class="page-section py-24 bg-sq-light-green">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-16">
           <h2 class="text-3xl md:text-4xl font-bold text-sq-green mb-4">Our Programs</h2>
@@ -131,7 +130,7 @@
     </section>
 
     <!-- Events Section -->
-    <section id="events" class="py-24 bg-white">
+    <section id="events" data-page="events" class="page-section py-24 bg-white hidden">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-16">
           <h2 class="text-3xl md:text-4xl font-bold text-sq-green mb-4">Events</h2>
@@ -230,7 +229,7 @@
     </section>
 
     <!-- Gallery Section -->
-    <section id="gallery" class="py-24 bg-sq-light-green overflow-hidden">
+    <section id="gallery" data-page="gallery" class="page-section py-24 bg-sq-light-green overflow-hidden hidden">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-16">
           <h2 class="text-3xl md:text-4xl font-bold text-sq-green mb-4">Our Gallery</h2>
@@ -279,7 +278,7 @@
     </section>
 
     <!-- Testimonials Section -->
-    <section id="testimonials" class="py-24 bg-white">
+    <section id="testimonials" data-page="testimonials" class="page-section py-24 bg-white hidden">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-16">
           <h2 class="text-3xl md:text-4xl font-bold text-sq-green mb-4">Voices of Impact</h2>
@@ -336,7 +335,7 @@
     </section>
 
     <!-- Impact Section -->
-    <section id="impact" class="py-24 bg-sq-green text-white">
+    <section id="impact" data-page="impact" class="page-section py-24 bg-sq-green text-white hidden">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-16">
           <h2 class="text-3xl md:text-4xl font-bold mb-4">Our Impact</h2>
@@ -365,7 +364,7 @@
     </section>
 
     <!-- Volunteer Section -->
-    <section id="volunteer" class="py-24 bg-white relative overflow-hidden">
+    <section id="volunteer" data-page="volunteer" class="page-section py-24 bg-white relative overflow-hidden hidden">
       <!-- Background pattern -->
       <div class="absolute inset-0 opacity-[0.03]" style="background-image: url('data:image/svg+xml,%3Csvg width=\'60\' height=\'60\' viewBox=\'0 0 60 60\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cg fill=\'none\' fill-rule=\'evenodd\'%3E%3Cg fill=\'%23000000\' fill-opacity=\'1\'%3E%3Cpath d=\'M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z\'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');"></div>
       
