@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-primary {
+    @apply bg-sq-orange text-white font-semibold py-3 px-8 rounded-full shadow-lg transition-transform hover:-translate-y-1 hover:shadow-xl;
+  }
+  
+  .btn-secondary {
+    @apply border-2 border-sq-orange text-sq-orange font-semibold py-3 px-8 rounded-full transition-all hover:bg-sq-orange hover:text-white hover:-translate-y-1;
+  }
+
+  .nav-link {
+    @apply text-gray-700 font-medium hover:text-sq-orange transition-colors;
+  }
+}
